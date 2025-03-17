@@ -1,0 +1,44 @@
+report-only:
+  enable: false
+  directives:
+    object-src:
+      base: none
+    script-src:
+      base: self
+    script-src-attr:
+      base: self
+    script-src-elem:
+      base: self
+    style-src:
+      base: self
+    style-src-attr:
+      base: self
+    style-src-elem:
+      base: self
+    frame-ancestors:
+      base: self
+  reporting:
+    plugin: none
+enforce:
+  enable: true
+  directives:
+    default-src:
+      base: self
+    img-src:
+      base: self
+      sources:
+        - 'data:'
+    object-src:
+      base: none
+    style-src:
+      base: self
+      flags:
+        - unsafe-inline
+    style-src-attr:
+      base: self
+      flags:
+        - unsafe-inline
+    frame-ancestors:
+      base: self
+  reporting:
+    plugin: none

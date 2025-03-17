@@ -1,0 +1,41 @@
+name: 'UNICC Drupal recipe'
+description: 'Installs and configures some required modules when start new project'
+type: 'Site'
+
+install:
+  # Install primary module.
+  - error_log
+  - entity_log
+  - config_log
+  - csp
+  - admin_toolbar
+  # Install submodules.
+  - dynamic_entity_reference
+  - admin_toolbar_tools
+config:
+  import:
+    error_log:
+      # Add Password Policy Settings
+      #- password_policy.settings
+      # The 90-day policy is imported by default from this recipe's config folder.
+  actions:
+    # Adds Two new fields to the user form. The third field is hidden by default.
+    # core.entity_form_display.user.user.default:
+    #   setComponents:
+    #     -
+    #       name: field_last_password_reset
+    #       options:
+    #         type: datetime_default
+    #         weight: 4
+    #         region: content
+    #         settings: {  }
+    #         third_party_settings: {  }
+    #     -
+    #       name: field_password_expiration
+    #       options:
+    #         type: boolean_checkbox
+    #         weight: 3
+    #         region: content
+    #         settings:
+    #           display_label: true
+    #         third_party_settings: {  }

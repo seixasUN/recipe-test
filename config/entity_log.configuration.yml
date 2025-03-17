@@ -1,0 +1,238 @@
+block_content:
+  basic:
+    fields:
+      id: 0
+      uuid: 0
+      revision_id: 0
+      langcode: 0
+      type: 0
+      revision_created: 0
+      revision_user: 0
+      revision_log: 0
+      status: 0
+      info: 0
+      changed: 0
+      reusable: 0
+      default_langcode: 0
+      revision_default: 0
+      revision_translation_affected: 0
+      body: 0
+comment:
+  comment:
+    fields:
+      cid: 0
+      uuid: 0
+      langcode: 0
+      comment_type: 0
+      status: 0
+      uid: 0
+      pid: 0
+      entity_id: 0
+      subject: 0
+      name: 0
+      mail: 0
+      homepage: 0
+      hostname: 0
+      created: 0
+      changed: 0
+      thread: 0
+      entity_type: 0
+      field_name: 0
+      default_langcode: 0
+      comment_body: 0
+contact_message:
+  feedback:
+    fields:
+      uuid: 0
+      langcode: 0
+      contact_form: 0
+      name: 0
+      mail: 0
+      subject: 0
+      message: 0
+      copy: 0
+      recipient: 0
+  personal:
+    fields:
+      uuid: 0
+      langcode: 0
+      contact_form: 0
+      name: 0
+      mail: 0
+      subject: 0
+      message: 0
+      copy: 0
+      recipient: 0
+entity_log:
+  entity_log:
+    fields:
+      id: 0
+      uuid: 0
+      langcode: 0
+      user_id: 0
+      entity_logged_id: 0
+      label: 0
+      old_value: 0
+      new_value: 0
+      name: 0
+      log_type: 0
+      hostname: 0
+      status: 0
+      created: 0
+      changed: 0
+file:
+  file:
+    fields:
+      fid: fid
+      uid: uid
+      filename: filename
+      status: status
+      created: created
+      changed: changed
+      uuid: 0
+      langcode: 0
+      uri: 0
+      filemime: 0
+      filesize: 0
+menu_link_content:
+  menu_link_content:
+    fields:
+      uuid: uuid
+      title: title
+      menu_name: menu_name
+      link: link
+      external: external
+      weight: weight
+      changed: changed
+      id: 0
+      revision_id: 0
+      langcode: 0
+      bundle: 0
+      revision_created: 0
+      revision_user: 0
+      revision_log_message: 0
+      enabled: 0
+      description: 0
+      rediscover: 0
+      expanded: 0
+      parent: 0
+      default_langcode: 0
+      revision_default: 0
+      revision_translation_affected: 0
+node:
+  article:
+    fields:
+      nid: 0
+      uuid: 0
+      vid: 0
+      langcode: 0
+      type: 0
+      revision_timestamp: 0
+      revision_uid: 0
+      revision_log: 0
+      status: 0
+      uid: 0
+      title: 0
+      created: 0
+      changed: 0
+      promote: 0
+      sticky: 0
+      default_langcode: 0
+      revision_default: 0
+      revision_translation_affected: 0
+      path: 0
+      body: 0
+      comment: 0
+      field_image: 0
+      field_tags: 0
+  page:
+    fields:
+      nid: 0
+      uuid: 0
+      vid: 0
+      langcode: 0
+      type: 0
+      revision_timestamp: 0
+      revision_uid: 0
+      revision_log: 0
+      status: 0
+      uid: 0
+      title: 0
+      created: 0
+      changed: 0
+      promote: 0
+      sticky: 0
+      default_langcode: 0
+      revision_default: 0
+      revision_translation_affected: 0
+      path: 0
+      body: 0
+path_alias:
+  path_alias:
+    fields:
+      id: 0
+      uuid: 0
+      revision_id: 0
+      langcode: 0
+      path: 0
+      alias: 0
+      status: 0
+      revision_default: 0
+shortcut:
+  default:
+    fields:
+      id: 0
+      uuid: 0
+      langcode: 0
+      shortcut_set: 0
+      title: 0
+      weight: 0
+      link: 0
+      default_langcode: 0
+taxonomy_term:
+  tags:
+    fields:
+      tid: 0
+      uuid: 0
+      revision_id: 0
+      langcode: 0
+      vid: 0
+      revision_created: 0
+      revision_user: 0
+      revision_log_message: 0
+      status: 0
+      name: 0
+      description: 0
+      weight: 0
+      parent: 0
+      changed: 0
+      default_langcode: 0
+      revision_default: 0
+      revision_translation_affected: 0
+      path: 0
+user:
+  user:
+    fields:
+      uid: uid
+      uuid: uuid
+      name: name
+      pass: pass
+      mail: mail
+      status: status
+      created: created
+      changed: changed
+      roles: roles
+      langcode: 0
+      preferred_langcode: 0
+      preferred_admin_langcode: 0
+      timezone: 0
+      access: 0
+      login: 0
+      init: 0
+      default_langcode: 0
+      field_last_password_reset: 0
+      field_password_expiration: 0
+      field_pending_expire_sent: 0
+      user_picture: 0
+log_in_logger: 1
+log_in_entity: 1

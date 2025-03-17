@@ -1,0 +1,14 @@
+{
+    "name": "drupal_recipe/unicc_drupal",
+    "description": "An example Drupal recipe description",
+    "type": "drupal-recipe",
+    "require": {
+        "drupal/core": "^10.2",
+        "drupal/entity_log": "^1.4",
+        "drupal/error_log": "^1.12",
+        "drupal/config_log": "^3.0",
+        "drupal/csp": "^1.30",
+        "drupal/admin_toolbar": "^3.4"
+    },
+    "license": "GPL-2.0-or-later"
+}
