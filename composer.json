@@ -1,5 +1,5 @@
 {
-    "name": "drupal_recipe/recipe_test",
+    "name": "drupal_recipe/recipe-test",
     "description": "An example Drupal recipe description",
     "type": "drupal-recipe",
     "require": {
